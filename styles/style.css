@@ -17,8 +17,8 @@
       --alt-color: #7d5537;
 
 
-      --h1-font: 7.5rem;
-      --h2-font: 5.5rem;
+      --h1-font: 3.5rem;
+      --h2-font: 2.5rem;
       --p-font: 1.1rem;
     }
 
@@ -30,4 +30,7 @@
 img{
    width: 100%;
    height: auto;
+}
+section{
+ padding: 90px 17% 80px;
 }
