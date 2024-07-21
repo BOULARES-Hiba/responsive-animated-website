@@ -1,0 +1,68 @@
+.contact{
+   display: flex;
+   align-items: center;
+   text-align: center;
+   flex-direction: column;
+   justify-items: center;
+   gap: 1rem;
+}
+.contact h1{
+   font-family: "Forum", serif; 
+   font-size: 4rem;
+   cursor: pointer;
+}
+.adress{
+   font-size: 0.7rem;
+   letter-spacing: 0.1rem;
+}
+.social-nav{
+   margin-top: 1rem;
+}
+.social-nav a{
+   font-size: .6rem;
+   text-transform: uppercase;
+  color: var(--p-color);
+  border: 1px solid var(--main-color) ;
+  border-radius: 0.5rem;
+  padding: .7rem .8rem;
+  margin: 1rem ;
+  transition: all 0.7s ease;
+}
+.social-nav a:hover{
+  background-color: var(--main-color);
+  transform: scale(1.07) translateY(-6px);
+}
+.contact hr{
+   width: 8%;
+   transition: all 0.6s ease;
+   border:1px solid var(--main-color);
+}
+.contact h1:hover + hr{
+   width: 28%;
+}
+.footer{
+   position: relative;
+   padding: 1.5rem;
+}
+.footer i{
+   position: absolute;
+   top: -2rem;
+   right: 15%;
+   height: 60px;
+   width: 60px;
+   font-size: 25px;
+   display: inline-flex;
+   justify-content: center;
+   align-items: center;
+   color: var(--bg-color);
+   background-color: var(--main-color);
+   padding: 20px;
+   border: 1px solid transparent;
+   border-radius:30px;
+   transition: all .4s ease;
+   }
+.footer i:hover{
+   color: var(--main-color);
+   background-color: transparent;
+   border: 1px solid var(--main-color);
+ }
