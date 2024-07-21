@@ -1,0 +1,37 @@
+.exhibitions{
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   justify-content: center;
+   align-items: center;
+   gap: 1rem;
+   transition: all .7s ease;
+}
+.exhibitions img{
+width: 100%;
+object-fit: contain;
+max-width: 530px;
+border-radius: .7rem;
+}
+.event h1{
+   font-family: "Forum", serif;
+   font-size: 1.6rem;
+   margin-bottom: 0.3rem;
+   font-weight: 400;
+}
+
+.event p{
+   font-size: 0.7rem;
+   color: var(--main-color);
+   margin-bottom: 2rem;
+   border-bottom: 1px solid var(--main-color);
+   padding-bottom: 1rem ;
+}
+.events .event:last-child p{
+   border: none;
+}
+.event:hover h1{
+   color: var(--main-color);
+}
+.event:hover p{
+   color: var(--p-font);
+}

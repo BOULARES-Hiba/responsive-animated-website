@@ -29,7 +29,7 @@
    top: 50%;
    transform: translateY(-50%);
    padding: 0 1.5rem;
-  transition: all 0.5s ease;
+  transition: all 0.7s ease;
 }
 .social a{
    display: block;
