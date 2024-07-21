@@ -16,9 +16,18 @@
       --second-color: #ffffff4f;
       --alt-color: #7d5537;
 
-      
+
       --h1-font: 7.5rem;
       --h2-font: 5.5rem;
       --p-font: 1.1rem;
     }
+
+   body {
+      color: var(--text-color);
+      background: linear-gradient(250.55deg, #120607 0%, #311b0d 28.55%, #160d07 75.55%);
+    }
     
+img{
+   width: 100%;
+   height: auto;
+}
