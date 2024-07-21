@@ -3,7 +3,7 @@ header{
    width: 100%;
    top:0;
    right: 0;
-   padding: 1.75rem 1.5rem ;
+   padding: 1.5rem 1.5rem ;
    z-index: 1000;
    display: flex;
    justify-content: space-between;
@@ -55,5 +55,5 @@ transform: scale(1.07) translateY(-6px);
 }
 .scroll{
    background:linear-gradient(250.55deg, #120607 0%, #311b0d 28.55%, #160d07 75.55%);
-   padding:1.6rem 0.3rem ;
+   padding:0.7rem 1.3rem ;
 }
