@@ -13,12 +13,12 @@
    <link rel="stylesheet" href="styles/exhibitions.css">
    <link rel="stylesheet" href="styles/contact.css">
    <link rel="stylesheet" href="styles/media.css">
-      <!--js icons -->
+      <!--js file -->
    <script src="scripts/script.js" defer></script>
    <!--box icons -->
    <link rel="stylesheet"
    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
-  <!--google fonts-->
+  <!--remix icons-->
   <link
    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
    rel="stylesheet"/>
@@ -26,6 +26,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+   <!--aos animations-->
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
    <header id="header" class="header">
@@ -45,20 +47,20 @@
    </header>
    <main>
       <section class="home" id="home">
-         <div class="home-text">
+         <div class="home-text" data-aos="fade-up" data-aos-duration="1400">
             <h4>Craving art</h4>
             <h1>Briging</h1><h1>Wood To Life</h1>
             <p>Expertly carved wooden sculptures and figurines that showcase the natural beauty and versatility of wood</p>
          </div>
-         <div class="home-img">
+         <div class="home-img" data-aos="zoom-in" data-aos-duration="1400">
             <img src="img/hero.png" alt="">
          </div>
          <div class="social">
-            <a href="#"><i class="ri-facebook-line"></i></a>
-            <a href="#"><i class="ri-instagram-line"></i></a>
-            <a href="#"><i class="ri-dribbble-line"></i></a>
+            <a href="#"><i class="ri-facebook-line" data-aos="fade-in" data-aos-duration="1400" data-aos-delay="200"></i></a>
+            <a href="#"><i class="ri-instagram-line" data-aos="fade-in" data-aos-duration="1400" data-aos-delay="300"></i></a>
+            <a href="#"><i class="ri-dribbble-line" data-aos="fade-in" data-aos-duration="1400" data-aos-delay="300"></i></a>
          </div>
-         <div class="arrow-down">
+         <div class="arrow-down" data-aos="fade-left" data-aos-duration="1400" >
           <a href="#about">
             <i class="ri-arrow-down-line"></i>
           </a>  
@@ -66,10 +68,10 @@
       </section>
 
       <section id="about" class="about">
-         <div class="about-img">
+         <div class="about-img" data-aos="fade-up" data-aos-duration="1400" >
             <img src="img/about.png" alt="">
          </div>
-         <div class="about-text">
+         <div class="about-text"data-aos="fade-left" data-aos-duration="1400" >
             <h1>Wood is my Passion</h1>
             <p>
                Hi, I'm Jack, a wood carving artist with 20 years of experience in creating unique, handcrafted wooden masterpieces that tell a story. My skills in carving, design, and finishing have been honed over the years, allowing me to create stunning sculptures, figurines, furniture, and decorations.
@@ -87,7 +89,8 @@
          <div class="shop-photos">
             <div class="shop-photo">
               <div>
-               <img src="img/s1.png" alt="">
+               <img src="img/s1.png" alt="" data-aos="fade-up" data-aos-duration="1000"
+               data-aos-delay="100">
               </div> 
               <p>Figurines</p>
               <a href="#">View Gallery</a>
@@ -95,7 +98,8 @@
             </div>
             <div class="shop-photo">
                <div>
-                <img src="img/s2.png" alt="">
+                <img src="img/s2.png" alt=""data-aos="fade-up" data-aos-duration="1000"
+                data-aos-delay="200">
                </div> 
                <p>Furniture</p>
                <a href="#">View Gallery</a>
@@ -103,7 +107,7 @@
              </div>
              <div class="shop-photo">
                <div>
-                <img src="img/s1.png" alt="">
+                <img src="img/s1.png" alt="" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
                </div> 
                <p>Figurines</p>
                <a href="#">View Gallery</a>
@@ -112,11 +116,13 @@
          </div>
       </section>
       <section id="exhibitions" class="exhibitions">
-         <div class="exhibitions-img">
+         <div class="exhibitions-img" data-aos="fade-right" data-aos-duration="1000"
+         data-aos-delay="100">
             <img src="img/exb.png" alt="">
          </div>
-         <div class="events">
-            <div class="event">
+         <div class="events" data-aos="fade-left" data-aos-duration="1000"
+         data-aos-delay="100">
+            <div class="event" >
                <h1>
                   Whispers in Wood: An Exploration of Nature's Beauty
                </h1>
@@ -143,7 +149,7 @@
             
          </div>
       </section>
-      <section id="contact" class="contact">
+      <section id="contact" class="contact" data-aos="fade-up" data-aos-duration="1400">
          <h1>
             Let's Talk
          </h1>
@@ -167,5 +173,9 @@
     
      
    </main>
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <script>
+      AOS.init();
+    </script>
 </body>
 </html>
