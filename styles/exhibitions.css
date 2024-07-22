@@ -3,22 +3,19 @@
    grid-template-columns: repeat(2,1fr);
    justify-content: center;
    align-items: center;
-   gap: 1rem;
+   gap: 2rem;
    transition: all .7s ease;
 }
-.exhibitions img{
-width: 100%;
-object-fit: contain;
-max-width: 530px;
+.exhibitions-img img{
+   object-fit: fill;
 border-radius: .7rem;
 }
 .event h1{
    font-family: "Forum", serif;
-   font-size: 1.6rem;
+   font-size: var(--event-font);
    margin-bottom: 0.3rem;
    font-weight: 400;
 }
-
 .event p{
    font-size: 0.7rem;
    color: var(--main-color);

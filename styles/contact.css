@@ -8,10 +8,10 @@
 }
 .contact h1{
    font-family: "Forum", serif; 
-   font-size: 4rem;
+   font-size: var(--h1-font);
    cursor: pointer;
 }
-.adress{
+.address{
    font-size: 0.7rem;
    letter-spacing: 0.1rem;
 }

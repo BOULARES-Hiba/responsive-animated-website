@@ -40,12 +40,11 @@ transition: all 1 ease;
 }
 #menu-icon{
 font-size: 42px;
-z-index: 1001;
+z-index: 100000;
 cursor: pointer;
-color: var(--bg-color);
+color: var(--p-color);
 margin-left: 20px;
 display: none;
-
 }
 .n-btn:hover{
 background-color: var(--main-color);

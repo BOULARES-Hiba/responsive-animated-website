@@ -16,7 +16,7 @@
       --second-color: #ffffff4f;
       --alt-color: #7d5537;
 
-
+      --event-font: 1.6rem;
       --h1-font: 3.5rem;
       --h2-font: 2.5rem;
       --p-font: 1.1rem;
@@ -30,7 +30,9 @@
 img{
    width: 100%;
    height: auto;
+   object-fit: cover;
 }
 section{
  padding: 90px 17% 80px;
 }
+ 

@@ -1,0 +1,212 @@
+@media (max-width: 1250px) {
+   section {
+      padding: 60px 15% 60px;
+    }
+    .header{
+       padding: 1.3rem;
+    }
+   .navlinks a{
+      margin: 0 0.5rem;
+   }
+   :root{
+      --h1-font: 3rem;
+      --h2-font:2rem;
+      --p-font: 1rem;
+      --event-font:1.1rem;
+   }
+ .home{
+   height: 80vh;
+ }
+ .scroll{
+   padding:0.5rem 1rem;
+ }
+
+ }
+
+  @media (max-width: 1200px) {
+   :root{
+      --event-font:1rem;
+   }
+  }
+  @media (max-width: 980px) {
+   :root{
+      --h1-font:2.2rem;
+      --h2-font:1.5rem;
+      --p-font:1rem;
+      --event-font:1.1rem;
+   }
+   #menu-icon{
+      display: block ;
+   }
+   .navlinks {
+      position: absolute;
+      width: 100%;
+      top: 0;
+      left: 100%;
+      right: 0;
+      height: 100vh;
+      backdrop-filter: blur(30px);
+      transition: all .7s ease-in-out;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      
+   }
+   .opens{
+      left:0;
+   }
+   .navlinks a{
+      font-size: 1.6rem ;
+      margin-bottom:1rem ;
+      display: block ;
+      font-weight: 400 ;
+   }
+  
+  }
+ @media (max-width: 800px) {
+   img{
+      width: 100%;
+      height: 100%;
+      margin: 0 auto;
+     }
+     .exhibitions img{
+      max-width: 350px;
+     }
+   .header{
+      padding: 0.9rem;
+   }
+   .scroll{
+      padding:0.7rem 0.9rem ;
+   }
+   .scroll{
+      padding: auto;
+   }
+   .arrow-down i{
+      padding: 8px;
+      font-size: 1rem;
+    }
+    .arrow-down{
+     right: 20%;
+   bottom: 10%;
+   }
+   .home{
+      height:80vh;
+    }
+    :root{
+      --h1-font:2rem;
+      --h2-font:1.2rem;
+      --p-font:0.9rem;
+      --event-font:1rem; 
+    }
+ .social a{
+   font-size: 1rem;
+ }
+
+}
+ 
+@media (max-width: 750px){
+  
+  .about-img {
+   order :2;
+   margin: 0 auto;
+   align-items: center;
+  }
+  .arrow-down i{
+  padding: 10px;
+  }
+  .header{
+   padding: 0.8rem;
+}
+.scroll{
+   padding:0.5rem 0.9rem ;
+}
+    :root{
+      --h1-font:1.8rem;
+      --h2-font:1.3rem;
+      --p-font:0.9rem;
+      --event-font:1rem; 
+    }
+    .home {
+      grid-template-columns: repeat(1,1fr) ;
+      height: 105vh;
+    }
+    .about {
+      grid-template-columns: repeat(1,1fr);
+     
+    }
+    .shop{
+      grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    }
+   .exhibitions{
+      grid-template-columns: repeat(1,1fr);
+   }
+   .exhibitions-img{
+      order: 2;
+   }
+    .exhibitions-img img{
+      width: 100%;
+      height: 100%;
+      max-width: 500px;
+    }
+    .navlinks a{
+      font-size: 1.3rem ;
+      margin-bottom:1rem ;
+   }
+   .contact h1{
+      font-size: 2.5rem;
+   }
+   .address{
+      font-size: 0.8rem;
+   }
+   .about-text a{
+      padding: 10px;
+      font-size: 0.7rem;
+   }
+   .social-nav a{
+      margin: 0.5rem ;
+      padding: .3rem .6rem;
+   }
+   .exhibitions{
+      grid-template-columns: repeat(1,1fr);
+   }
+  
+}
+@media (max-width: 500px){
+  
+   section {
+      padding: 50px 10% 50px;
+    }
+   .home{
+      height: 90vh;
+   }
+   .shop-text h1{
+      font-size: 1.6rem;
+   }
+   .header{
+      padding: 0.9rem 0.7rem ;
+   }
+   .scroll{
+      padding: 0.5rem 0.7rem;
+   }
+   .shop-text p{
+      font-size: 0.9rem;
+   }
+   .social-nav a{
+      margin: 0.1rem ;
+      padding: .2rem .5rem;
+   }
+   .social a{
+      display: none;
+   }
+}
+@media (max-width:500px) {
+   #menu-icon{
+      font-size: 1.5rem;
+    }
+    .n-btn{
+      padding: 0.6rem 0.8rem;
+   }
+   .logo img{
+      max-width: 3rem;
+   }
+}
