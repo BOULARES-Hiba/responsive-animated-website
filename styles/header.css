@@ -39,7 +39,7 @@ border-radius: 0.8rem;
 transition: all 1 ease;
 }
 #menu-icon{
-font-size: 42px;
+font-size: 3rem;
 z-index: 100000;
 cursor: pointer;
 color: var(--p-color);

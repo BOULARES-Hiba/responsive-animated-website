@@ -33,6 +33,7 @@ img{
    object-fit: cover;
 }
 section{
- padding: 90px 17% 80px;
+ padding: 90px 10% 50px;
+ overflow:hidden
 }
  
